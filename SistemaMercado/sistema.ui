@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Sistema</class>
+ <widget class="QMainWindow" name="Sistema">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="usuario_txt">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="funcao_txt">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QTabWidget" name="tabWidget"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuProdutos">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="title">
+     <string>Produtos</string>
+    </property>
+    <addaction name="actionGerenciar_Produtos"/>
+   </widget>
+   <widget class="QMenu" name="menuFuncionarios">
+    <property name="title">
+     <string>Funcionários</string>
+    </property>
+    <addaction name="actionGerenciar_Funcionarios"/>
+   </widget>
+   <widget class="QMenu" name="menuOp_es">
+    <property name="title">
+     <string>Opções</string>
+    </property>
+    <addaction name="actionSair"/>
+   </widget>
+   <addaction name="menuProdutos"/>
+   <addaction name="menuFuncionarios"/>
+   <addaction name="menuOp_es"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionAdicionar_Produto">
+   <property name="text">
+    <string>Cadastrar Produto</string>
+   </property>
+  </action>
+  <action name="actionExcluir_Produto">
+   <property name="text">
+    <string>Excluir Produto</string>
+   </property>
+  </action>
+  <action name="actionListar_Produtos">
+   <property name="text">
+    <string>Listar Produtos</string>
+   </property>
+  </action>
+  <action name="actionProcurar_Produtos">
+   <property name="text">
+    <string>Procurar Produtos</string>
+   </property>
+  </action>
+  <action name="actionExcluir_Funcion_rio">
+   <property name="text">
+    <string>Excluir Funcionário</string>
+   </property>
+  </action>
+  <action name="actionListar_Funcion_rio">
+   <property name="text">
+    <string>Listar Funcionário</string>
+   </property>
+  </action>
+  <action name="actionProcurar_Funcion_rio">
+   <property name="text">
+    <string>Procurar Funcionário</string>
+   </property>
+  </action>
+  <action name="actionSair">
+   <property name="text">
+    <string>Sair</string>
+   </property>
+  </action>
+  <action name="actionGerenciar_Produtos">
+   <property name="text">
+    <string>Gerenciar Produtos</string>
+   </property>
+  </action>
+  <action name="actionGerenciar_Funcionarios">
+   <property name="text">
+    <string>Gerenciar Funcionários</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

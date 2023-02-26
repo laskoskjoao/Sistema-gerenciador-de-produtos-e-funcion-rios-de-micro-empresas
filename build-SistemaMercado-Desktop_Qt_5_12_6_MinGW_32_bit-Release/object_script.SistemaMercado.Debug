@@ -1,0 +1,15 @@
+debug/adicionar.o
+debug/excluir.o
+debug/gerenciadorafuncionarios.o
+debug/gerenciadoraprodutos.o
+debug/listar.o
+debug/main.o
+debug/login.o
+debug/procurar.o
+debug/sistema.o
+debug/moc_adicionar.o
+debug/moc_excluir.o
+debug/moc_listar.o
+debug/moc_login.o
+debug/moc_procurar.o
+debug/moc_sistema.o

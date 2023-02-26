@@ -1,0 +1,15 @@
+release/adicionar.o
+release/excluir.o
+release/gerenciadorafuncionarios.o
+release/gerenciadoraprodutos.o
+release/listar.o
+release/main.o
+release/login.o
+release/procurar.o
+release/sistema.o
+release/moc_adicionar.o
+release/moc_excluir.o
+release/moc_listar.o
+release/moc_login.o
+release/moc_procurar.o
+release/moc_sistema.o
