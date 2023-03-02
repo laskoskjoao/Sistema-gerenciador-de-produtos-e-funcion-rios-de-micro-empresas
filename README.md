@@ -38,6 +38,8 @@ Para o entendimento completo do sistema, recomenda-se a leitura do documento "Pr
 
 ### Gerenciando funcionários
 
+O gerenciamento de funcionários é análogo ao de produtos. No entanto, como dito anteriormente, somente um gerente possui poder para gerenciar funcionários.
+
 ## :question: Como testar
 
 Para testar o programa, basta baixar este repositório e acessar build-SistemaMercado-Desktop_Qt_5_12_6_MinGW_32_bit-Release/release/SistemaMercado. Para acessar o sistema, é possível utilizar o usuário ADM e a senha 123.
